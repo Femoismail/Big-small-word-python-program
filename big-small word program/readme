@@ -48,7 +48,8 @@ big_word_list = [] # adds all words where the length of the word is bigger then 
 
 
 
-for word in new_split_sentence:   # loops through each word in the list to find the length of the word and compares the length of the word to big_word_length and if the length of the word is greater than big_word_length it assigns the length of the word to big_word_length and it assigns the word to big_word_list
+for word in new_split_sentence:      # loops through each word in the list to find the length of the word and compares the length of the word to big_word_length 
+                                     # and if the length of the word is greater than big_word_length it assigns the length of the word to big_word_length and it assigns the word to big_word_list
     if len(word) > big_word_length:
         big_word_length = len(word)
         big_word_list.append(word)
